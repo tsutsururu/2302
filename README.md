@@ -152,7 +152,8 @@ https://maspypy.com/segment-tree-%E3%81%AE%E3%81%8A%E5%8B%89%E5%BC%B71
 
 ➀ 一点更新
 
-![image](https://user-images.githubusercontent.com/109026838/216398088-bfd517f8-afea-42dc-b658-3974dad9d45d.png)
+![image](https://user-images.githubusercontent.com/109026838/216410049-1abd6a29-d6d5-4063-993c-79684c79b7ec.png)
+
 
 最下層から、関連する頂点を全て更新。各層で一度更新が行われるので 計算量は O(logN) (層数が logN )
 
