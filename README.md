@@ -204,6 +204,13 @@ https://qiita.com/drken/items/68b8503ad4ffb469624c#3-lis-%E3%81%AE%E8%A7%A3%E6%B
 
 ⇒ この in-place 化で計算量を大幅に削減できる手法は他でも応用できそうなので、慣れておきたい
 
+※ 追記 230208  251E 解答後
+
+![image](https://user-images.githubusercontent.com/109026838/217298462-95e4f2c7-a949-4da2-9091-61555b33da50.png)
+
+
+
+
 ➁ 長さ K となる部分列のうち、その最後の要素の最小値を更新することで最大の部分列の長さを求める。
 
 ![image](https://user-images.githubusercontent.com/109026838/216405657-9986a5ec-e738-4376-86c5-d4ee4eb81af0.png)
@@ -226,6 +233,8 @@ https://qiita.com/drken/items/68b8503ad4ffb469624c#3-lis-%E3%81%AE%E8%A7%A3%E6%B
 ➀　思考
 
 Ti=1 で一点更新, Ti=2 で区間取得なので Segment Tree で管理すれば解けそう ⇒ 最下層が (0+最下層サイズ) -indexed , X,Y が1-indexe であるのでこれを調整して AC 。計算量は全体で O( NlogN ) で十分高速
+
+
 
 # ☆281E Least Elements  diff 
 
