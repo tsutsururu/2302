@@ -703,7 +703,7 @@ SortedSet で含まれないものを管理する方針だと O(N√N) で間に
 
 ⇒　類題: 281E 
 
-③ 別解 
+➁ 別解 1
 
 $mex$ : 区間に含まれない & 最小値
 
@@ -717,6 +717,8 @@ $mex$ : 区間に含まれない & 最小値
 参考: https://marco-note.net/abc-194-work-log/
 
 
+
+③ 別解 2
 
 
 ④ 補足 defaultdict　初期化
