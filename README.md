@@ -1085,7 +1085,7 @@ x個の葉を、(1,1) , (2,2) ... (x,x) と命名し、根まで親の(最小値
 
 連結成分ごとに計上し、各連結成分にちょうど１つサイクルがあれば組み合わえは2倍になることがわかった。⇒ 連結成分ごとに DFS で探索し、union-find でサイクルを検知する。一度探索した頂点を seen で管理することで全体で O(2M) となり十分高速
 
-![image](https://user-images.githubusercontent.com/109026838/220481010-d57f33b6-beef-473d-b3b7-1a6f8b87f5cd.png)
+![image](https://user-images.githubusercontent.com/109026838/220481572-9c6383c6-df71-4a2e-95a0-62edfd30b947.png)
 
 
 ➁ 解法
