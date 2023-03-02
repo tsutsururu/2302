@@ -401,7 +401,7 @@ i≦k≦N  番目までの動物への餌やりが完了している状態 を �
 
 
 
-# 200D Happy Birthday! 2  diff  1217
+# ☆ 200D Happy Birthday! 2  diff  1217
 
 解答遷移 AC
 
